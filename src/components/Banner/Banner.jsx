@@ -17,10 +17,10 @@ const Banner = () => {
     }
 
   return (
-    <div className=" ">
+    <div className=" m-0 ">
       {/* <p className="text-black text-4xl font-bold">Mobarak Miah</p> */}
-      <Image src={bgImage} className=" opacity-5"/>
-      <div className=" relative -top-[17vh] lg:-top-[550px]">
+      <Image src={bgImage} className=" opacity-5 h-full" />
+      <div className="relative -top-[17vh] lg:-top-[550px] ">
       <nav className="">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
@@ -61,7 +61,7 @@ const Banner = () => {
       )}
     </nav>
     <div>
-      <h1 className=" text-center text-3xl font-bold mt-48">I Grow By Helping People In Need</h1>
+      <h1 className=" text-center text-3xl font-bold mt-52">I Grow By Helping People In Need</h1>
       <div className=" flex justify-center mt-12">
         <input placeholder="Search here...." className=" px-2 relative left-2 border border-r-0 rounded-l-md  border-gray-400 py-1" type="text" /> <button className="  bg-red-500 px-6 py-1 text-white rounded-r-md">Search</button>
       </div>
