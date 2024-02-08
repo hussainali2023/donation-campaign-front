@@ -1,10 +1,11 @@
-import Image from "next/image";
-import Banner from "../components/Banner/Banner";
+// import Home from "@/home/page";
 
-export default function Home() {
+import Home from "./home/page";
+
+export default function RootPage() {
   return (
     <div>
-     <Banner/>
+    <Home/>
     </div>
   );
 }

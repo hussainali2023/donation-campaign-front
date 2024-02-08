@@ -17,9 +17,9 @@ const Banner = () => {
     }
 
   return (
-    <div>
+    <div className=" ">
       {/* <p className="text-black text-4xl font-bold">Mobarak Miah</p> */}
-      <Image src={bgImage} className=" opacity-5" height={"100px"}/>
+      <Image src={bgImage} className=" opacity-5"/>
       <div className=" relative -top-[17vh] lg:-top-[550px]">
       <nav className="">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
