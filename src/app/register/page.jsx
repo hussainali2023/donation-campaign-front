@@ -3,7 +3,7 @@ import React from 'react';
 import LoginImage from "../../assests/login.webp"
 import Link from 'next/link';
 
-export default function Login() {
+export default function Register() {
   return (
     <div className=' md:grid grid-cols-2 dark:bg-dark-gray-800'>
 <div>
@@ -14,14 +14,12 @@ export default function Login() {
       <div className="mt-7 bg-white border border-gray-200 rounded-xl shadow-sm ">
         <div className="p-4 sm:p-7">
           <div className="text-center">
-            <h1 className="block text-2xl font-bold text-gray-800 ">Sign In</h1>
+            <Link href={'/login'}> <h1 className="block text-2xl font-bold text-gray-800 ">Sign Up</h1></Link>
             <p className="mt-2 text-sm text-gray-600">
-             <span className='mr-1'> Don't have an account?</span>
-              <Link href={"/register"}>
-              <span className="text-blue-600 decoration-2 hover:underline font-medium " href="../examples/html/signin.html">
-                Sign In here
-              </span>
-              </Link>
+             <span className=''>Already have an account? </span> 
+              <Link href={"/login"}><span className="text-blue-600 decoration-2 hover:underline font-medium " href="../examples/html/signin.html">
+                Sign in here
+              </span></Link>
             </p>
           </div>
 
@@ -33,7 +31,7 @@ export default function Login() {
                 <path d="M10.1212 28.1413C9.62245 26.6725 9.32908 25.1156 9.32908 23.5C9.32908 21.8844 9.62245 20.3275 10.0918 18.8588V18.5356L2.75765 12.8369L2.52296 12.9544C0.909439 16.1269 0 19.7106 0 23.5C0 27.2894 0.909439 30.8731 2.49362 34.0456L10.1212 28.1413Z" fill="#FBBC05"/>
                 <path d="M23.4694 9.07688C27.8699 9.07688 30.8622 10.9863 32.5344 12.5725L39.1645 6.11C35.0867 2.32063 29.8061 0 23.4694 0C14.287 0 6.36607 5.2875 2.49362 12.9544L10.0918 18.8588C11.9987 13.1894 17.25 9.07688 23.4694 9.07688Z" fill="#EB4335"/>
               </svg>
-              Sign In with Google
+              Sign up with Google
             </button>
 
             <div className="py-3 flex items-center text-xs text-gray-400 uppercase before:flex-[1_1_0%] before:border-t before:border-gray-200 before:me-6 after:flex-[1_1_0%] after:border-t after:border-gray-200 after:ms-6   ">Or</div>
@@ -69,9 +67,9 @@ export default function Login() {
                   </div>
                   <p className="hidden text-xs text-red-600 mt-2" id="password-error">8+ characters required</p>
                 </div>
-           
-             
-                <button type="submit" className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">Sign In</button>
+                {/* <!-- End Form Group --> */}
+
+                <button type="submit" className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">Sign up</button>
               </div>
             </form>
             {/* <!-- End Form --> */}
