@@ -39,10 +39,10 @@ const Navbar = () => {
           </div>
           <div className="hidden sm:flex sm:items-center">
             <div className="space-x-4">
-              <Link href="#" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
-              <Link href="#" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Donation</Link>
-              <Link href="#" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Statistics</Link>
-              <Link href="#" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
+              <Link href="/" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
+              <Link href="/donation" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Donation</Link>
+              <Link href="/statitics" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Statistics</Link>
+              <Link href="/contact" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
             </div>
           </div>
         </div>
@@ -50,10 +50,10 @@ const Navbar = () => {
       {isOpen && (
         <div className="sm:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <Link href="#" className="text-black block px-3 py-2 rounded-md text-base font-medium">Home</Link>
-            <Link href="#" className="text-black block px-3 py-2 rounded-md text-base font-medium">Donation</Link>
-            <Link href="#" className="text-black block px-3 py-2 rounded-md text-base font-medium">Statistics</Link>
-            <Link href="#" className="text-black block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
+            <Link href="/" className="text-black block px-3 py-2 rounded-md text-base font-medium">Home</Link>
+            <Link href="/donation" className="text-black block px-3 py-2 rounded-md text-base font-medium">Donation</Link>
+            <Link href="/statistics" className="text-black block px-3 py-2 rounded-md text-base font-medium">Statistics</Link>
+            <Link href="/contact" className="text-black block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
           </div>
         </div>
       )}

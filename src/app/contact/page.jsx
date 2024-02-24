@@ -5,7 +5,7 @@ import React from 'react'
 export default function ContactPage() {
   return (
     <div>
-        <Navbar/>
+        <h1>This is from contact page</h1>
     </div>
   )
 }
