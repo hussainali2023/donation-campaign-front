@@ -1,12 +1,11 @@
-import Card_Home from "@/components/Card_Home/Card_Home";
-
-const { default: Banner } = require("@/components/Banner/Banner");
+import Card from "./Card/Card";
+import Banner from "./Banner/Banner";
 
 const Home = () => {
   return (
     <>
       <Banner />
-      <Card_Home />
+      <Card />
     </>
   );
 };

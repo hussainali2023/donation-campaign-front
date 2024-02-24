@@ -1,4 +1,4 @@
-import Banner from '@/components/Banner/Banner'
+import Banner from '@/app/home/Banner/Banner'
 import Navbar from '@/components/shared/Navbar'
 import React from 'react'
 
