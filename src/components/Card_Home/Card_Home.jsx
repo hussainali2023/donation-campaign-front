@@ -4,7 +4,7 @@ import Education from "../../assests/Education.png";
 const Card_Home = () =>{
     return (
         <>
-        <div className=" relative -top-[17vh] lg:-top-[500px] This is card section md:mx-40 mx-5 mt-28 ">
+        <div className=" md:mx-40 mx-5 mt-28 ">
 <div className=" grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
 
     <div className=" single-card w-[350px] gap-4">
