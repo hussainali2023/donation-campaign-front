@@ -16,10 +16,10 @@ export default function Login() {
           <div className="text-center">
             <h1 className="block text-2xl font-bold text-gray-800 ">Sign In</h1>
             <p className="mt-2 text-sm text-gray-600">
-             <span className='mr-1'> Don't have an account?</span>
+             <span className='mr-1'> Don&apos;t have an account?</span>
               <Link href={"/register"}>
               <span className="text-blue-600 decoration-2 hover:underline font-medium " href="../examples/html/signin.html">
-                Sign In here
+                Sign Up here
               </span>
               </Link>
             </p>
@@ -43,7 +43,7 @@ export default function Login() {
               <div className="grid gap-y-4">
                 {/* <!-- Form Group --> */}
                 <div>
-                  <label htmlFor="email" className="block text-sm mb-2 ">Email address</label>
+                  <label htmlFor="email" className="block text-sm mb-2">Email address</label>
                   <div className="relative">
                     <input type="email" id="email" name="email" className="py-3 px-4 block w-full border border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none " required aria-describedby="email-error"/>
                     <div className="hidden absolute inset-y-0 end-0 pointer-events-none pe-3">
@@ -58,7 +58,7 @@ export default function Login() {
 
                 {/* <!-- Form Group --> */}
                 <div>
-                  <label htmlFor="password" className="block text-sm mb-2 ">Password</label>
+                  <label htmlFor="password" className="block text-sm mb-2">Password</label>
                   <div className="relative">
                     <input type="password" id="password" name="password" className="py-3 px-4 block w-full border border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none " required aria-describedby="password-error"/>
                     <div className="hidden absolute inset-y-0 end-0 pointer-events-none pe-3">
