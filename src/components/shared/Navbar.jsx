@@ -43,6 +43,7 @@ const Navbar = () => {
               <Link href="/donation" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Donation</Link>
               <Link href="/statitics" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Statistics</Link>
               <Link href="/contact" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
+              <Link href="/login" className=" text-white bg-blue-600 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</Link>
             </div>
           </div>
         </div>
@@ -54,6 +55,7 @@ const Navbar = () => {
             <Link href="/donation" className="text-black block px-3 py-2 rounded-md text-base font-medium">Donation</Link>
             <Link href="/statistics" className="text-black block px-3 py-2 rounded-md text-base font-medium">Statistics</Link>
             <Link href="/contact" className="text-black block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
+            <Link href="/login" className=" text-white bg-blue-600 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</Link>
           </div>
         </div>
       )}
